@@ -131,7 +131,7 @@ const Registeration = () => {
                     </p>
                   </div>
                   <div className="mb-4">
-                    <Link className="" href="">
+                    <Link className="" to="/login">
                       already have an account
                     </Link>
                   </div>
