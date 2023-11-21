@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useSelector } from 'react-redux'
@@ -20,6 +20,25 @@ const Navbar = () => {
     userRole = user.split(" ")[0];
   }
 
+   const googleTranslateElementInit = () => {
+    new window.google.translate.TranslateElement(
+      {
+        includedLanguages: "en,hi,zh-CN",
+        autoDisplay: false,
+      },
+      "google_translate_element"
+    );
+  };
+  useEffect(() => {
+    var addScript = document.createElement("script");
+    addScript.setAttribute(
+      "src",
+      "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    );
+    document.body.appendChild(addScript);
+    window.googleTranslateElementInit = googleTranslateElementInit;
+  }, []);
+  
   function logoutHandler() {
     if (access_token) {
       window.localStorage.clear();
@@ -127,6 +146,11 @@ const Navbar = () => {
                   </ul>
                 </li>
               )}
+              <li className="nav-item">
+                <Link className="nav-link" to="/">
+                <div  id="google_translate_element"></div>
+                </Link>
+              </li>              
             </ul>
           </div>
         </div>

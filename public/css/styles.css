@@ -10846,3 +10846,62 @@ html {
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 
 }
+
+/* Custom CSS for Google Translate widget */
+.goog-te-banner-frame {
+    display: none !important;
+    position: absolute !important;
+    z-index: -111 !important;
+}
+
+.goog-te-menu {
+    margin: 0 !important;
+}
+
+.goog-te-menu-value {
+    color: #d60000 !important;
+}
+
+/* Customize the dropdown background and text color */
+.goog-te-menu2 {
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+}
+
+.goog-te-menu2-item {
+    color: #333 !important;
+}
+
+/* Hover effect for dropdown items */
+.goog-te-menu2-item:hover {
+    background-color:red !important;
+}
+
+/* Customize the language dropdown button */
+.goog-te-gadget {
+    border-radius: 4px !important;
+    font-size: 0px !important;
+}
+
+.goog-te-combo {
+    background-color: rgb(255, 255, 255) !important;
+    color: #333 !important;
+}
+
+/* Hover effect for the dropdown button */
+.goog-te-combo:hover {
+    background-color:rgb(255, 255, 255) !important;
+}
+.VIpgJd-ZVi9od-l4eHX-hSRGPd, .VIpgJd-ZVi9od-l4eHX-hSRGPd:link, .VIpgJd-ZVi9od-l4eHX-hSRGPd:visited, .VIpgJd-ZVi9od-l4eHX-hSRGPd:hover, .VIpgJd-ZVi9od-l4eHX-hSRGPd:active{
+    visibility: hidden !important;
+    display: none !important;
+ }
+
+ /* hide google banner  */
+body > .skiptranslate {
+    display: none !important;
+}
+body {
+    top: 0px !important;
+}
+.appointment-section{max-width: 90%;margin-left: auto;margin-right: auto;}
