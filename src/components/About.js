@@ -9,7 +9,7 @@ const About = () => {
                         <div className="col-lg-8 col-xxl-6">
                             <div className="text-center my-5">
                                 <h1 className="fw-bolder mb-3">We are committed to delivering a seamless online shopping experience</h1>
-                                <p className="lead fw-normal text-muted mb-4">Step into a world of fashion and style with our exquisite dress-up e-commerce website. Discover a curated collection of the latest trends, timeless classNameics, and everything in between, all at your fingertips.</p>
+                                <p className="lead fw-normal text-muted mb-4">Step into a world of fashion and style with our exquisite Dress Dash e-commerce website. Discover a curated collection of the latest trends, timeless classNameics, and everything in between, all at your fingertips.</p>
                                 <a className="btn btn-dark btn-lg" href="#scroll-target">Read our story</a>
                             </div>
                         </div>

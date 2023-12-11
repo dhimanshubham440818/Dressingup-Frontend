@@ -62,7 +62,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container px-4">
           <Link className="navbar-brand" to="/">
-          DressUp
+          Dress Dash
           </Link>
           <button
             className="navbar-toggler"
